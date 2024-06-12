@@ -56,7 +56,7 @@ These episodic manifests hold the labels (i.e transcript) for three scenatios vi
 ### Evaluation Splits
 The evaluation is not splitted into episodes but is continually evolving. The episodic evaluations can be run using the language, state and district information as shared in the Metadata section
 
-|Test| [Nirantar](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/LIDIL.tgz) |
+|Test| [Nirantar](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/nirantar_test.tgz) |
 |-|-|
 
 <br>
