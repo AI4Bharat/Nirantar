@@ -82,26 +82,26 @@ The following `CSVs` hold the mapping of episode number with the language, state
 **Manifest format (train/test splits)**
 
     {
-        "audio_filepath": "<AUDIOS/audios>/2533274790514854_chunk_4.wav",                                 # Points to the wav file
-        "text": "<TRANSCRIPT>",                       # Transcript for audio, we use Normalized version of the transcript
-        "duration": <DURATION>,                                                              #  audio duration in seconds
-        "lang": "<LANG_CODE(ISO)>",                                          # ISO code for language (given in meta data)
-        "samples": <NUMBER_OF_SAMPLES>,                                                               # Number of samples
-        "verbatim": "<VERBATIM VERSION OF TRANSCRIPT>",                              # Verbatim version of the transcript
-        "normalized": "<NORMALIZE>",                                               # Normalized version of the transcript
-        "speaker_id": "S4258780200341914",                                                            # Unique speaker ID
-        "scenario": "Extempore",                                                                           # Type of data
-        "task_name": "KYP - Traveling",                                                                       # Task name
-        "gender": "Male",                                                                         # Gender of the speaker
-        "age_group": "18-30",                                                                  # Age group of the speaker
-        "job_type": "Student",                                                                  # Job type of the speaker
-        "qualification": "Undergrad and Grad.",                                            # Qualification of the speaker
-        "area": "Rural",                                                            # Area from which the speaker belongs
-        "district": "Barpeta",                                                  # District from which the speaker belongs
-        "state": "Assam",                                                          # Dtate from which the speaker belongs
-        "occupation": "Private tutor",                                                              # Speakers occupation
-        "verification_report": "{}"                                        # Verification markers as given by the QA team
-        "chunk_name": "2533274790514854_chunk_4.wav"}                                                  # audio chunk name
+        "audio_filepath": "<AUDIOS/audios>/2533274790514854_chunk_4.wav",                    # Points to the wav file
+        "text": "<TRANSCRIPT>",                   # Transcript for audio, we use Normalized version of the transcript
+        "duration": <DURATION>,                                                          #  Audio duration in seconds
+        "lang": "<LANG_CODE(ISO)>",                                      # ISO code for language (given in meta data)
+        "samples": <NUMBER_OF_SAMPLES>,                                                           # Number of samples
+        "verbatim": "<VERBATIM VERSION OF TRANSCRIPT>",                          # Verbatim version of the transcript
+        "normalized": "<NORMALIZE>",                                           # Normalized version of the transcript
+        "speaker_id": "S4258780200341914",                                                        # Unique speaker ID
+        "scenario": "Extempore",                                                                       # Type of data
+        "task_name": "KYP - Traveling",                                                                   # Task name
+        "gender": "Male",                                                                     # Gender of the speaker
+        "age_group": "18-30",                                                              # Age group of the speaker
+        "job_type": "Student",                                                              # Job type of the speaker
+        "qualification": "Undergrad and Grad.",                                        # Qualification of the speaker
+        "area": "Rural",                                                        # Area from which the speaker belongs
+        "district": "Barpeta",                                              # District from which the speaker belongs
+        "state": "Assam",                                                      # State from which the speaker belongs
+        "occupation": "Private tutor",                                                         # Speaker's occupation
+        "verification_report": "{}"                                    # Verification markers as given by the QA team
+        "chunk_name": "2533274790514854_chunk_4.wav"}                                              # Audio chunk name
 
 
 
