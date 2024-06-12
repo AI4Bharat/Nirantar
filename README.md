@@ -82,7 +82,7 @@ The following `CSVs` hold the mapping of episode number with the language, state
 **Manifest format (train/test splits)**
 
     {
-        "audio_filepath": "audios/2533274790514854_chunk_4.wav",                                 # Points to the wav file
+        "audio_filepath": "<AUDIOS/audios>/2533274790514854_chunk_4.wav",                                 # Points to the wav file
         "text": "<TRANSCRIPT>",                       # Transcript for audio, we use Normalized version of the transcript
         "duration": <DURATION>,                                                              #  audio duration in seconds
         "lang": "<LANG_CODE(ISO)>",                                          # ISO code for language (given in meta data)
