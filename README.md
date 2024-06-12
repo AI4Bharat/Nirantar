@@ -10,6 +10,11 @@ We present Nirantar based on a large-scale effort to collect extempore and conve
 |[Part 1](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.aa) | [Part 2](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ab) | [Part 3](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ac) | [Part 4](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ad) | [Part 5](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ae) |
 |-|-|-|-|-|
 
+For extraction, please use the following command
+    
+    cat AUDIOS.tgz.* > AUDIOS.tgz
+    tar -xzvf AUDIOS.tgz
+
 ### Episodic Manifests: 
 These episodic manifests hold the labels (i.e transcript) for three scenatios viz, Language Incremental Learning (LIL), Domain Incremental Learning (DIL) and Language and Domain Incremental Learning (LIDIL). In addition to the transcript, the manifests also contains additional information viz speaker_id, gender, age-group, state, district etc.
 
