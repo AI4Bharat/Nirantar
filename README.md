@@ -102,8 +102,8 @@ The following `CSVs` hold the mapping of episode number with the language, state
         "state": "Assam",                                                      # State from which the speaker belongs
         "occupation": "Private tutor",                                                         # Speaker's occupation
         "verification_report": "{}"                                    # Verification markers as given by the QA team
-        "chunk_name": "2533274790514854_chunk_4.wav"}                                              # Audio chunk name
-
+        "chunk_name": "2533274790514854_chunk_4.wav"                                              # Audio chunk name
+    }
 
 
 
