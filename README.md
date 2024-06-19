@@ -109,7 +109,8 @@ The following `CSVs` hold the mapping of episode number with the language, state
 
 # Training and Inference
 
-- Install [NeMo](https://github.com/AI4Bharat/NeMo.git) 
+- Install [NeMo](https://github.com/AI4Bharat/NeMo.git)
+- Clone this repository 
 - For Training
 
     ```
