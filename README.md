@@ -3,14 +3,12 @@
 
 We present Nirantar based on a large-scale effort to collect extempore and conversational speech data from participants spanning 22 languages across diverse locations in India. Given the extensive number of languages and locations involved, data is collected in incremental batches. Each batch introduces new languages, new domains (locations), or both, creating a practical playground for continual learning (CL). Nirantar contains a total of 3240 hours of human-transcribed speech data covering 208 Indian districts across 22 languages, with 1780 hours newly released as a part of this work. The data inflow and resulting multilingual multi-domain episodes are based on real-world data collection rather than simulated episodes commonly found in existing CL datasets. In particular, the amount of data collected, and the number of languages and domains involved is not uniform across episodes, reflecting a practical and real world continual learning scenario. This dataset serves as a playground for training and evaluating CL approaches in three different scenarios: Language-Incremental (LIL), Domain-Incremental (DIL), and the novel Language-Incremental Domain-Incremental Learning (LIDIL). To establish the dataset's usefulness, we evaluated several existing CL approaches within these scenarios. Our findings indicate that the behavior of these algorithms varies across the three scenarios, emphasizing the need for detailed independent studies of each.
 
-# Please note that the resources on this page are getting updated. 
-
 # Resources 
 
 ### Audio Data
 
 
-|[Part 1](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.aa) | [Part 2](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ab) | [Part 3](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ac) | [Part 4](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ad) | [Part 5](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ae) |
+|[Part 1](https://objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.aa) | [Part 2](https://objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ab) | [Part 3](https://objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ac) | [Part 4](https://objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ad) | [Part 5](https://objectstore.e2enetworks.net/nirantar/AUDIOS.tgz.ae) |
 |-|-|-|-|-|
 
 For extraction, please use the following command
@@ -21,7 +19,7 @@ For extraction, please use the following command
 ### Episodic Manifests: 
 These episodic manifests hold the labels (i.e transcript) for three scenatios viz, Language Incremental Learning (LIL), Domain Incremental Learning (DIL) and Language and Domain Incremental Learning (LIDIL). In addition to the transcript, the manifests also contains additional information viz speaker_id, gender, age-group, state, district etc.
 
-| **Scenario** | [LIL](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/LIL.tgz) | [DIL](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/DIL.tgz) | [LIDIL](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/LIDIL.tgz) |
+| **Scenario** | [LIL](https://objectstore.e2enetworks.net/nirantar/LIL.tgz) | [DIL](https://objectstore.e2enetworks.net/nirantar/DIL.tgz) | [LIDIL](https://objectstore.e2enetworks.net/nirantar/LIDIL.tgz) |
 |-|-|-|-|
 
 <br>
@@ -59,8 +57,9 @@ These episodic manifests hold the labels (i.e transcript) for three scenatios vi
 ### Evaluation Splits
 The evaluation is not splitted into episodes but is continually evolving. The episodic evaluations can be run using the language, state and district information as shared in the Metadata section
 
-|Test| [Nirantar](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/nirantar_test.tgz) |
-|-|-|
+### Note: We are still looking for ways to effectively release benchmark data to avoid data contamination.
+<!-- |Test| [Nirantar](https://objectstore.e2enetworks.net/nirantar/nirantar_test.tgz) | 
+|-|-|-->
 
 <br>
 
@@ -77,7 +76,7 @@ The evaluation is not splitted into episodes but is continually evolving. The ep
 ### Metadata
 The following `CSVs` hold the mapping of episode number with the language, state and district of an audio file. For fine-grained evaluation on the test split, the metadata can be used.
 
-| Metadata | [LIL.csv](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/LIL.csv) | [DIL.csv](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/DIL.csv) | [LIDIL.csv](https://indic-asr-public.objectstore.e2enetworks.net/nirantar/LIDIL.csv) |
+| Metadata | [LIL.csv](https://objectstore.e2enetworks.net/nirantar/LIL.csv) | [DIL.csv](https://objectstore.e2enetworks.net/nirantar/DIL.csv) | [LIDIL.csv](https://objectstore.e2enetworks.net/nirantar/LIDIL.csv) |
 |-|-|-|-|
  
 <br>
@@ -146,7 +145,6 @@ The following `CSVs` hold the mapping of episode number with the language, state
 # Contact
 - Tahir Javed (tahir@cse.iitm.ac.in)
 - Kaushal Bhogale (CS22D006@cse.iitm.ac.in)
-- Mitesh M. Khapra (miteshk@cse.iitm.ac.in)
     
 
 
